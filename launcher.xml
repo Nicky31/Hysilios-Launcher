@@ -1,0 +1,6 @@
+<options>
+ <version num="1"/>
+ <launcherUrlDir>http://localhost/launcher/</launcherUrlDir>
+ <site>http://www.siteduzero.com/ </site>
+ <forum>http://www.funky-emu.net/ </forum>
+</options>
