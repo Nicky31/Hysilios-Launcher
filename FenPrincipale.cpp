@@ -188,7 +188,7 @@ void MainWindow::saveFile() // Fonction pour enregistrer un fichier
     r->deleteLater(); // Suppression du pointeur
 
     // On déplace le fichier
-        QFile::rename(fileName,"dofus/" + filePath); // On déplace
+        QFile::rename(fileName,filePath); // On déplace
         emit readyToUpdate(); // On passe au dl suivant
 }
 
